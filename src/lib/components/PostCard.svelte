@@ -13,11 +13,11 @@
 </script>
 
 <a href="/blog/{post.slug}" class="block group">
-  <article class="border-b border-gray-800/50 pb-12 hover:border-blue-500/30 transition-colors">
+  <article class="border-b border-gray-800/50 pb-12 hover:border-emerald-500/30 transition-colors">
     <time class="text-xs text-gray-500 font-mono uppercase tracking-wide">
       {formatDate(post.date)}
     </time>
-    <h2 class="text-3xl font-bold mt-3 group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-cyan-400 group-hover:bg-clip-text group-hover:text-transparent transition">
+    <h2 class="text-3xl font-bold mt-3 group-hover:bg-gradient-to-r group-hover:from-emerald-400 group-hover:to-green-400 group-hover:bg-clip-text group-hover:text-transparent transition">
       {post.title}
     </h2>
     <p class="text-gray-400 mt-3 text-lg leading-relaxed">
