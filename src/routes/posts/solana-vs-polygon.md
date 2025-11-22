@@ -1,6 +1,6 @@
 ---
 title: Smart Contract Development Frameworks - Solana versus Polygon
-date: 2025-11-26
+date: 2025-11-15
 description: A technical comparison of the programming models, execution environments, and tradeoffs inherent to smart contract development on Solana and Polygon.
 tags:
   - blockchain
@@ -9,6 +9,12 @@ tags:
   - polygon
   - web3
 ---
+
+<div style="text-align: center;">
+    <img src="https://media.istockphoto.com/id/946710864/vector/seamless-block-data-connection-network-background.jpg?s=612x612&w=0&k=20&c=JQHxuW8KGUOTaOy_Bj2C1yQEz934uCBPErK9WeaUxMY=" 
+         alt="Image of Solarpunk Architecture" 
+         style="width: 100%; height: auto; display: block; margin-bottom: 2rem;" />
+</div>
 
 Smart contract execution requires a deterministic runtime environment with constrained resources. Solana and Polygon implement this requirement through divergent architectural choices, resulting in fundamentally different developer experiences. Solana employs a single global state architecture optimized for parallel execution, while Polygon provides an EVM-compatible layer atop Ethereum's established ecosystem.
 
@@ -94,7 +100,7 @@ declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
 #[program]
 pub mod counter {
     use super::*;
-
+    
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
         let counter = &mut ctx.accounts.counter;
         counter.count = 0;

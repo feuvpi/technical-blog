@@ -33,7 +33,7 @@
     {/if}
   </header>
   
-  <div class="prose prose-lg prose-invert max-w-none
+  <div class="prose prose-lg prose-invert max-w-none text-justified
               prose-headings:font-bold prose-headings:bg-gradient-to-r prose-headings:from-gray-100 prose-headings:to-gray-300 prose-headings:bg-clip-text prose-headings:text-transparent
               prose-a:text-emerald-400 prose-a:no-underline hover:prose-a:text-cyan-400 prose-a:transition
               prose-code:text-emerald-400 prose-code:bg-gray-900/50 prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded prose-code:border prose-code:border-gray-800/50
