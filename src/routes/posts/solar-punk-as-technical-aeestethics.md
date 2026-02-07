@@ -86,3 +86,14 @@ Implementing the solarpunk technical framework necessitates accepting tradeoffs 
 
 These technical choices structurally support a **degrowth** or **steady-state economy** by increasing the intrinsic cost and complexity of rapid expansion, simultaneously boosting the stability and equity of local communities. The technical aesthetic is, fundamentally, an economic statement.
 </div>
+
+
+
+Atualizar/Expandir/Detalhar o artigo com os seguintes assuntos:
+
+- Fase marcada por excesso a abundancia de energia limpa, resultando em maior flexibilidade para a organizacao em pequenas comunidades off-grids, e principalmente marcado por uma fase em que a tecnologia eh marcante e caracteristica padrao da vida humana, mas de forma integrativa com natureza e seres vivos e nao explorativa. 
+
+- Spreading of new disruptive technologies intended control heat and filter, like algae bio reactors that can absorb heat, filter contaminants and the algae itselfs becomes useful biomass (biofuel, fertilized, animal feed), theoretically allowing the implementation of closed-loop systems where data center wast heat could grows algae that purifies the water that cools the system. Symbiotic instead of extractive.
+
+- using blockchain technolgoies for descentralized governments, enabling each citzen to have a his own right to vote on the matter of the country/society and not having to just delegate to someone
+
