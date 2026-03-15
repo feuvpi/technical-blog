@@ -1,7 +1,15 @@
 <script lang="ts">
   import PostCard from '$lib/components/PostCard.svelte';
+  import SEO from '$lib/components/SEO.svelte';
   export let data;
 </script>
+
+<SEO
+  title="bit-shift.run"
+  description="Exploring cutting-edge science, technology, and futurism. Deep dives into emerging technologies, physical sciences, complex systems, and realistic speculation about what comes next."
+  url="https://bit-shift.run"
+  type="website"
+/>
 
 <div class="max-w-5xl mx-auto px-6 py-24 relative">
   <!-- Decorative background elements -->

@@ -1,5 +1,7 @@
 <script lang="ts">
+	import SEO from '$lib/components/SEO.svelte';
 	export let data;
+
 	function formatDate(date: string) {
 		return new Date(date).toLocaleDateString('en-US', {
 			year: 'numeric',
@@ -7,10 +9,51 @@
 			day: 'numeric'
 		});
 	}
+
+	// Convert date to ISO format for structured data
+	const publishedTime = new Date(data.metadata.date).toISOString();
+	const postUrl = `https://bit-shift.run/blog/${data.slug}`;
+
+	// JSON-LD structured data for article
+	const structuredData = {
+		'@context': 'https://schema.org',
+		'@type': 'BlogPosting',
+		headline: data.metadata.title,
+		description: data.metadata.description,
+		datePublished: publishedTime,
+		dateModified: publishedTime,
+		author: {
+			'@type': 'Person',
+			name: 'bit-shift.run',
+			url: 'https://bit-shift.run/about'
+		},
+		publisher: {
+			'@type': 'Organization',
+			name: 'bit-shift.run',
+			logo: {
+				'@type': 'ImageObject',
+				url: 'https://bit-shift.run/logo.png'
+			}
+		},
+		mainEntityOfPage: {
+			'@type': 'WebPage',
+			'@id': postUrl
+		},
+		keywords: data.metadata.tags?.join(', ') || ''
+	};
 </script>
 
+<SEO
+	title={data.metadata.title}
+	description={data.metadata.description}
+	url={postUrl}
+	type="article"
+	publishedTime={publishedTime}
+	tags={data.metadata.tags || []}
+/>
+
 <svelte:head>
-	<title>{data.metadata.title} • bit-shift.run</title>
+	{@html `<script type="application/ld+json">${JSON.stringify(structuredData)}</script>`}
 </svelte:head>
 
 <article class="mx-auto prose max-w-4xl px-6 py-20 prose-invert">

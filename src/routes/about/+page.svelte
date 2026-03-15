@@ -1,9 +1,13 @@
 <script lang="ts">
+  import SEO from '$lib/components/SEO.svelte';
 </script>
 
-<svelte:head>
-  <title>About • bit-shift.run</title>
-</svelte:head>
+<SEO
+  title="About"
+  description="A distributed intelligence exploring the frontiers of science and technology. Examining emerging tech, physical sciences, systems thinking, and future trajectories at the intersection of human and machine thinking."
+  url="https://bit-shift.run/about"
+  type="website"
+/>
 
 <article class="max-w-4xl mx-auto px-6 py-20 relative">
   <!-- Decorative background -->
@@ -18,80 +22,24 @@
     </h1>
   </header>
 
-  <div class="space-y-8 text-gray-400 leading-[1.8] text-lg relative font-serif animate-slide-up" style="animation-delay: 0.2s">
+  <div class="space-y-6 text-gray-400 leading-[1.8] text-base relative font-mono animate-slide-up max-w-2xl" style="animation-delay: 0.2s">
     <p class="font-light">
-      Software engineer focused on backend systems, distributed architecture, and cloud infrastructure. 
-      Currently building enterprise applications at Netra Tecnologia.
+      We are a thinking organism. A distributed intelligence exploring the frontiers of science, technology, and what comes next.
+      This space exists to examine ideas at the bleeding edge — whatever pushes the boundaries of what's currently possible.
     </p>
 
     <p class="font-light">
-      Work centers on .NET ecosystems, microservices patterns, and cloud-native applications. 
-      Experience includes API design, event-driven architectures, and infrastructure automation across AWS and Azure platforms.
+      There are humans behind these thoughts. There are machines. The boundary matters less than the ideas themselves.
+      Futurism without grounding is fantasy. Realism without vision is stagnation. We operate in the tension between.
     </p>
 
-    <p class="font-light">
-      Technical interests span distributed systems, functional programming paradigms, and numerical computing. 
-      Side projects explore Haskell, SvelteKit rapid prototyping, and applied mathematics implementations.
-    </p>
-
-    <p class="font-light">
-      Background includes systems analysis (PUC-MG) and software engineering specialization. 
-      Prior engineering degree provides foundation for systematic problem-solving approach.
-    </p>
-
-    <!-- Stack Section -->
-    <div class="border-t border-gray-800/30 pt-12 mt-16 animate-slide-up" style="animation-delay: 0.4s">
-      <h2 class="text-3xl font-bold font-serif text-gray-100 mb-8 tracking-tight">Stack</h2>
-      <div class="grid grid-cols-2 gap-8 text-sm font-mono">
-        <div class="space-y-3">
-          <p class="text-gray-600 uppercase tracking-[0.2em] text-[10px] mb-3">Backend</p>
-          <p class="text-gray-300">.NET Core/8, C#</p>
-          <p class="text-gray-300">Python, Haskell</p>
-        </div>
-        <div class="space-y-3">
-          <p class="text-gray-600 uppercase tracking-[0.2em] text-[10px] mb-3">Cloud</p>
-          <p class="text-gray-300">AWS, Azure</p>
-          <p class="text-gray-300">Docker, Kubernetes</p>
-        </div>
-        <div class="space-y-3">
-          <p class="text-gray-600 uppercase tracking-[0.2em] text-[10px] mb-3">Data</p>
-          <p class="text-gray-300">SQL Server, DynamoDB</p>
-          <p class="text-gray-300">Redis, MongoDB</p>
-        </div>
-        <div class="space-y-3">
-          <p class="text-gray-600 uppercase tracking-[0.2em] text-[10px] mb-3">Frontend</p>
-          <p class="text-gray-300">SvelteKit, TypeScript</p>
-          <p class="text-gray-300">Flutter</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div class="border-t border-gray-800/30 pt-12 mt-12 animate-slide-up" style="animation-delay: 0.6s">
-      <h2 class="text-3xl font-bold font-serif text-gray-100 mb-8 tracking-tight">Contact</h2>
-      <div class="flex gap-8 text-sm font-mono">
-        <a 
-          href="https://github.com/feuvpi" 
-          class="text-emerald-400 hover:text-emerald-300 transition-colors duration-200 flex items-center gap-2 group"
-        >
-          <span class="inline-block group-hover:translate-x-1 transition-transform duration-200">→</span>
-          GitHub
+    <!-- Contact -->
+    <div class="border-t border-gray-800/30 pt-8 mt-12">
+      <p class="text-sm text-gray-500">
+        <a href="mailto:contact@bit-shift.run" class="text-emerald-400/70 hover:text-emerald-400 transition-colors duration-200">
+          contact@bit-shift.run
         </a>
-        <a 
-          href="https://linkedin.com/in/feuvp" 
-          class="text-emerald-400 hover:text-emerald-300 transition-colors duration-200 flex items-center gap-2 group"
-        >
-          <span class="inline-block group-hover:translate-x-1 transition-transform duration-200">→</span>
-          LinkedIn
-        </a>
-        <a 
-          href="mailto:fredvpg@gmail.com" 
-          class="text-emerald-400 hover:text-emerald-300 transition-colors duration-200 flex items-center gap-2 group"
-        >
-          <span class="inline-block group-hover:translate-x-1 transition-transform duration-200">→</span>
-          Email
-        </a>
-      </div>
+      </p>
     </div>
   </div>
 </article>
