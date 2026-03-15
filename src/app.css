@@ -1,44 +1,56 @@
 @import 'tailwindcss';
 
 @layer base {
-  html {
-    @apply bg-[#0a0a0a] text-gray-100;
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
-    font-feature-settings: "kern" 1, "liga" 1;
-  }
-  
-  body {
-    @apply antialiased;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-  }
+	html {
+		@apply bg-[#0a0a0a] text-gray-100;
+		font-family: 'JetBrains Mono', 'Courier New', monospace;
+		font-feature-settings:
+			'kern' 1,
+			'liga' 1;
+	}
 
-  /* Explicit font families */
-  h1, h2, h3, h4, h5, h6, p {
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
-  }
+	body {
+		@apply antialiased;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		text-rendering: optimizeLegibility;
+	}
 
-  /* Selection styling */
-  ::selection {
-    background-color: rgba(16, 185, 129, 0.2);
-    color: rgb(209, 250, 229);
-  }
+	/* Explicit font families */
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p {
+		font-family: 'JetBrains Mono', 'Courier New', monospace;
+	}
 
-  /* Smooth scroll */
-  html {
-    scroll-behavior: smooth;
-  }
+	/* Selection styling */
+	::selection {
+		background-color: rgba(16, 185, 129, 0.2);
+		color: rgb(209, 250, 229);
+	}
+
+	/* Smooth scroll */
+	html {
+		scroll-behavior: smooth;
+	}
 }
 
 @layer components {
-  .font-serif {
-    font-family: 'Space Grotesk', -apple-system, system-ui, sans-serif;
-  }
+	.font-serif {
+		font-family:
+			'Space Grotesk',
+			-apple-system,
+			system-ui,
+			sans-serif;
+	}
 
-  .font-mono {
-    font-family: 'JetBrains Mono', 'Courier New', monospace;
-  }
+	.font-mono {
+		font-family: 'JetBrains Mono', 'Courier New', monospace;
+	}
 }
 
 /* Typography plugin */
