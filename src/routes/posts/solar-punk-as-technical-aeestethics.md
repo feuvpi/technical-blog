@@ -1,5 +1,5 @@
 ---
-title: "The Solarpunk Prospect: A Technical Case for an Optimistic Future"
+title: "Solarpunk as Systems Architecture"
 date: 2026-03-19
 description: Solarpunk is not an aesthetic — it is a distributed systems architecture applied to civilization. This analysis maps its technical proposals across energy, materials, biological integration, digital infrastructure, and governance.
 tags:
