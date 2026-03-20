@@ -337,7 +337,7 @@ Microgrids have shown they can island successfully and maintain power through gr
 
 The pattern repeats across every domain. The physics works. The biology works. The network theory works. The institutional adaptation is what remains incomplete.
 
-This is not an argument for despair. It is an argument for clarity about what kind of work remains. The solarpunk project does not need better solar cells—it already has them. It does not need cheaper batteries—the cost curve is already steep enough. It does not need more efficient algorithms—the protocols already function.
+This is an argument for clarity about what kind of work remains. The solarpunk project does not need better solar cells—it already has them. It does not need cheaper batteries—the cost curve is already steep enough. It does not need more efficient algorithms—the protocols already function.
 
 What it needs is different: design attention applied to transition pathways. How does a community with an incumbent utility shift to local ownership without triggering a political war it cannot win? How does a regulator rewrite rules written for centralized systems to accommodate distributed ones? How does a financier structure investments that strand some assets while creating others? How does a Global South country sequence its investments so that distributed systems today become platforms for full electrification tomorrow, not substitutes for it?
 
