@@ -1,6 +1,6 @@
 ---
-title: "After the Grid: How Solarpunk Rewires Civilization from the Ground Up"
-date: 2025-11-15
+title: "The Solarpunk Prospect: A Technical Case for an Optimistic Future"
+date: 2026-03-19
 description: Solarpunk is not an aesthetic — it is a distributed systems architecture applied to civilization. This analysis maps its technical proposals across energy, materials, biological integration, digital infrastructure, and governance.
 tags:
   - solarpunk
