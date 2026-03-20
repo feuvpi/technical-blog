@@ -239,7 +239,7 @@ These are engineering and institutional problems to be solved, not reasons to ab
 
 ## Part VIII - Political Economy
 
-The Unasked Question: Who Loses?
+### The Unasked Question: Who Loses?
 
 Any honest analysis of the energy transition must confront a question that technical discussions routinely evade: who loses when the grid decentralizes?
 
@@ -255,7 +255,7 @@ Construction and labor face a shift in where work happens. Building transmission
 
 Regulatory institutions themselves have stakes. Public utility commissions, grid operators, and energy regulators derive their authority from managing centralized systems. A distributed grid requires different regulatory logic—less command-and-control, more coordination and standard-setting. Some incumbents will adapt; others will resist.
 
-The Revolt of the Connected
+### The Revolt of the Connected
 
 Against this entrenched power, the solarpunk coalition has one structural advantage: distributed systems create distributed constituencies.
 
@@ -267,8 +267,6 @@ What this means practically: the solarpunk transition will not be a smooth admin
 
 ## Part IX - The Global South
 
-Leapfrogging and Its Discontents
-
 The leapfrog narrative is familiar to anyone who follows development economics: just as mobile phones bypassed landlines, distributed renewables will bypass centralized grids, bringing clean energy to billions without waiting for transmission infrastructure.
 
 The narrative is true enough to be useful—and incomplete enough to be misleading.
@@ -279,7 +277,7 @@ Kenya's M-KOPA took the model further, integrating mobile money and pay-as-you-g
 
 India's mini-grid experiments tell a more complicated story. Early efforts foundered on a mismatch between what developers built and what communities needed. Systems sized for households couldn't power the small businesses that drive local economies. Tariffs that worked for the developer were unaffordable for users. Some projects failed; others adapted. The lesson was that technology must be embedded in genuine understanding of local economic activity, not dropped in from outside.
 
-The Harder Truths
+### The Harder Truths
 
 The leapfrog narrative obscures three uncomfortable realities.
 
@@ -289,7 +287,7 @@ Second, maintenance is the hidden challenge. Solar panels are reliable; the rest
 
 Third, the political economy of leapfrogging is not always benign. In some contexts, distributed solar has been used to justify reduced investment in grid extension—effectively relegating rural populations to second-tier energy access while urban centers get full service. The language of leapfrogging can mask a retreat from universal service obligations. The question is not whether distributed systems work—they do—but whether they are seen as a complement to grid infrastructure or an excuse for not building it.
 
-What a Genuinely Global Solarpunk Looks Like
+### What a Genuinely Global Solarpunk Looks Like
 
 The most interesting developments are not technological but institutional. Community-owned microgrids in Nepal, managed by local cooperatives with technical support from the national utility. Pay-as-you-go models that use mobile money to make solar affordable while building credit histories that unlock other services. Productive use programs that deliberately size systems to power small enterprises—grain mills, welding shops, battery charging stations—recognizing that energy access without economic activity is sustainability without development.
 
